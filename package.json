@@ -11,7 +11,7 @@
     "react-scripts": "2.0.5",
     "redux": "^4.0.1"
   },
-  "homepage": "http://luislora.github.io/placeholder-app",
+  "homepage": "https://luislora.github.io/placeholder-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
