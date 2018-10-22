@@ -11,8 +11,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
     return {
-        onIncreaseClick: () => dispatch(actions.increaseTodo()),
-        onUpdateClick: (event) => dispatch(actions.updateTodo(event.target.value))
+        onIncreaseClick: () => dispatch(actions.increaseTodo())
     }
     
 }
