@@ -4,8 +4,7 @@ import * as actions from '../actions'
 
 function mapStateToProps(state) {
     return {
-        count: state.CountReducer.count,
-        wish_value: state.CountReducer.wish_value
+        count: state.CountReducer.count
     }
 }
 
