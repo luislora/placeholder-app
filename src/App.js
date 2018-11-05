@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import VisibleCounter from './containers/VisibleCounter';
-import TestComponent from './components/TestComponent';
+import TestComponent from './components/TestComponent/TestComponent';
 
 class App extends Component {
   render() {
