@@ -42,10 +42,12 @@ class TestComponent extends React.PureComponent {
 
 class Pure extends React.PureComponent {
   render() {
+    const {items} = this.props;
+
     return (
       <div>
-        { this.props.items.length ?
-          this.props.items.map((item, index) => <div key={index}>{item}</div>) :
+        { items.length ?
+          items.map((item, index) => <div key={index}>{item}</div>) :
           <div>
                   No items
           </div>
