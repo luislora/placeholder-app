@@ -3,15 +3,15 @@ import Counter from '../components/Counter';
 import * as actions from '../actions';
 
 function mapStateToProps(state) {
-    return {
-        count: state.CountReducer.count
-    };
+  return {
+    count: state.CountReducer.count
+  };
 }
 
 function mapDispatchToProps(dispatch) {
-    return {
-        onIncreaseClick: () => dispatch(actions.increaseTodo())
-    };
+  return {
+    onIncreaseClick: () => dispatch(actions.increaseTodo())
+  };
     
 }
 
