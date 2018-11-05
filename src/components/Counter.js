@@ -3,6 +3,7 @@ import '../styles/counter.css';
 
 export default class Counter extends Component {
     render() {
+        // eslint-disable-next-line react/prop-types
         const {count, onIncreaseClick} = this.props;
 
         return (
