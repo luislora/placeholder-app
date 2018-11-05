@@ -49,7 +49,7 @@ class Pure extends React.PureComponent {
         { items.length ?
           items.map((item, index) => <div key={index}>{item}</div>) :
           <div>
-                  No items
+            No items
           </div>
         }
       </div>
